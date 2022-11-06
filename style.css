@@ -1,0 +1,29 @@
+* {
+    font-size: 25pt;
+}
+
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+  }
+
+table{
+      width: 600px;
+      height: 700px;
+      table-layout: fixed;
+      margin: 0 auto;
+  }
+
+th{
+      text-align: end;
+      padding-right: 20px;
+      font-size: 30pt;
+  }
+
+td:hover{
+    background-color: aliceblue;
+    cursor: pointer;
+}
+
